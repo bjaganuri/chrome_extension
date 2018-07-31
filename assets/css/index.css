@@ -1,0 +1,5 @@
+.root {
+    min-width: 768px;
+    min-height: 640px;
+    overflow: auto;
+}

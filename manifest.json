@@ -1,0 +1,18 @@
+{
+    "name": "Sample chrome extension",
+    "description": "Sample chrome extension",
+    "version" : "1.0.0",
+    "default_locale": "en",
+    "icons": { 
+        "16": "./assets/icons/icon.png",
+        "48": "./assets/icons/icon.png",
+        "128": "./assets/icons/icon.png" 
+    },
+    "manifest_version": 2,
+    "browser_action": {
+        "default_title": "Sample chrome extension",
+        "default_icon": "./assets/icons/icon.png",
+        "default_popup": "index.html"
+    },
+    "permissions": ["activeTab"]
+}
